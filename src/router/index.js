@@ -4,6 +4,7 @@ import Hello from '@/components/Hello';
 import View1 from '@/components/View1';
 import View2 from '@/components/View2';
 import View12 from '@/components/View12';
+import Form from '@/components/Form';
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
           path: 'view1view2',
           name: 'view1view2',
           component: View2,
+        },
+        {
+          path: 'form',
+          name: 'form',
+          component: Form,
         },
       ],
     },

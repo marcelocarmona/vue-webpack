@@ -4,6 +4,7 @@
     <router-link to="/">Back</router-link>
     <router-link to="/view1/view12">child view</router-link>
     <router-link to="/view1/view1view2">child view2</router-link>
+    <router-link to="/view1/form">child form</router-link>
     <pre class="child">
       <router-view></router-view>
     </pre>
