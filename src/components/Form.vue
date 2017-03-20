@@ -42,6 +42,7 @@
         <button class="button is-primary" type="submit">Submit</button>
       </p>
     </div>
+    <pre>{{ errors | json }}</pre>
   </form>
 </template>
 
@@ -53,8 +54,6 @@ export default {
     name: '',
     phone: '',
     url: '',
-    errors: { has: () => {},
-      first: () => {} },
   }),
   methods: {
     validateBeforeSubmit() {
