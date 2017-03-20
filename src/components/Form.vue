@@ -69,3 +69,10 @@ export default {
   },
 };
 </script>
+
+<style>
+form {
+   text-align: left;
+   margin: 10px;
+}
+</style>
