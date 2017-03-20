@@ -42,7 +42,7 @@
         <button class="button is-primary" type="submit">Submit</button>
       </p>
     </div>
-    <pre>{{ errors | json }}</pre>
+    <pre>{{ errors }}</pre>
   </form>
 </template>
 
