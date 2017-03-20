@@ -2,11 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
 import VeeValidate from 'vee-validate';
-import Vuex from 'vuex'
+// import Vuex from 'vuex'
 import App from './App';
 import router from './router';
 
-Vue.use(Vuex);
+// Vue.use(Vuex);
 Vue.use(VeeValidate);
 Vue.config.productionTip = false;
 
