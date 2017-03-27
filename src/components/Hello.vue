@@ -20,7 +20,8 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
-    <button v-on:click="increment()"></button>
+    <button v-on:click="increment()">increment</button>
+    <button v-on:click="decrement()">decrement</button>
     {{ count }}
   </div>
 </template>
@@ -36,6 +37,9 @@ export default {
   methods: {
     increment() {
       this.$store.commit('increment');
+    },
+    decrement() {
+      this.$store.commit('decrement');
     },
   },
   computed: {
